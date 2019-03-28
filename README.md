@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Deploy on github
+
+To deploy you need to build on develop branch
+`ng build --prod --base-href "https://cristtopher.github.io/cristtopher.github.io/"`
+
+Then run angular-cli-ghpages
+`npx angular-cli-ghpages --no-silent --dir=dist/cristtopher --repo=https://<GH TOKEN>@github.com/cristtopher/cristtopher.github.io.git --name="<NAME>" --email="<EMAIL>" --message="<COMMIT-MESSAGE>"`
+
+And put this changes on master branch.
