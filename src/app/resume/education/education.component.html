@@ -1,0 +1,16 @@
+<div class="masonry-item col-sm-6 col-xs-12">
+  <div class="resume-card">
+    <h3 class="title">Education</h3>
+    <div class="timeline">
+      <div class="timeline-event animated" *ngFor="let edu of education">
+        <div class="content">
+          <span class="date">{{ edu.date }}</span>
+          <h4>{{ edu.title }}</h4>
+          <span>{{ edu.institution }}</span>
+          <br>
+          <span class="caption">{{ edu.place }}, Chile</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

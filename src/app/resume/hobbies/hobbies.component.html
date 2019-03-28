@@ -1,0 +1,15 @@
+<div class="masonry-item col-sm-6 col-xs-12">
+  <div class="resume-card">
+    <h3 class="title">Hobbies &amp; Interests</h3>
+    <div class="row">
+      <div class="col-sm-4" *ngFor="let hobbie of hobbies">
+        <div class="feature feature-1 text-center">
+          <span class="icon icon-primary">
+            <em [ngClass]="hobbie.icon"></em>
+          </span>
+          <h4>{{ hobbie.name }}</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

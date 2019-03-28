@@ -1,0 +1,11 @@
+<div class="masonry-item col-sm-6 col-xs-12">
+  <div class="resume-card">
+    <h3 class="title">Skills</h3>
+    <div class="skill" *ngFor="let skill of skills">
+        <h5>{{ skill.name }}</h5>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" [attr.aria-valuenow]="skill.progress"></div>
+        </div>
+    </div>
+  </div>
+</div>

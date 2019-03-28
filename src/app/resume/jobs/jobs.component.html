@@ -1,0 +1,17 @@
+<div class="masonry-item col-sm-6 col-xs-12">
+  <div class="resume-card">
+    <h3 class="title">Jobs
+    </h3>
+    <div class="timeline">
+      <div class="timeline-event animated" *ngFor="let job of jobs">
+        <span class="date">{{ job.date }}</span>
+        <h4>{{ job.title }}</h4>
+        <span>{{ job.company }}</span>
+        <br>
+        <span class="caption">{{ job.place }}, Chile</span>
+        <br>
+        <strong><a href="http://www.{{ job.url }}">www.{{ job.url }}</a></strong>
+      </div>
+    </div>
+  </div>
+</div>

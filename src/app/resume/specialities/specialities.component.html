@@ -1,0 +1,17 @@
+<div class="masonry-item col-sm-6 col-xs-12">
+  <div class="resume-card">
+    <h3 class="title">My Specialities</h3>
+    <div class="row">
+      <div class="col-lg-6" *ngFor="let specility of specialities">
+        <div class="feature feature-2">
+          <span class="icon icon-primary">
+            <em [ngClass]="specility.icon"></em>
+          </span>
+          <div class="feature-content">
+            <h4>{{ specility.name }}</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
