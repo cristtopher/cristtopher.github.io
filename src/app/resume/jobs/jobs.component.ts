@@ -16,9 +16,17 @@ export class JobsComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    this.jobs = [{
+    this.jobs = [
+      {
         title: 'Fullstack Developer',
-        date: '01.2019 - Present',
+        date: '05.2019 - Present',
+        company: 'PeanutHub / Digital Factory Falabella',
+        place: 'Santiago',
+        url: 'peanuthub.cl'
+      },
+      {
+        title: 'Fullstack Developer',
+        date: '01.2019 - 05.2019',
         company: 'Kubos / Banco de Chile',
         place: 'Santiago',
         url: 'kubos.cl'
