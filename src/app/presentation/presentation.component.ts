@@ -8,7 +8,7 @@ import { Constants } from '../commons/constants/constants';
 })
 export class PresentationComponent implements OnInit {
   me;
-  
+
   constructor() {
     this.me = Constants.me;
   }

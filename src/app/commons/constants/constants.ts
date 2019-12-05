@@ -1,6 +1,6 @@
 export class Constants {
-    public static me: Object = {
+    public static me = {
         name: 'Cristtopher Quintana T.',
-        description: 'Family Father 👨‍👩‍👧‍👦 | Software Engineer 💻 | Entrepreneur 🚀 | Chile 🇨🇱 | Patagonia 🏔'
+        description: 'Family Father 👨‍👩‍👧‍👦 | Software Engineer 💻 | Chile 🇨🇱 | Patagonia 🏔'
     };
 }
