@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "npx angular-cli-ghpages --no-silent --dir=dist/cristtopher --repo=https://CONFIGOR_CONSUL_KEY@github.com/cristtopher/cristtopher.github.io.git --name='Cristtopher Quintana T.' --email='cristtopher@protonmail.com' --message='' --branch=master"
   },
   "private": true,
   "dependencies": {
@@ -20,6 +21,7 @@
     "@angular/platform-browser-dynamic": "~7.2.0",
     "@angular/router": "~7.2.0",
     "@fortawesome/fontawesome-free": "^5.8.1",
+    "angular-cli-ghpages": "^0.6.0",
     "animate.css": "^3.7.0",
     "bootstrap": "^3.3.6",
     "core-js": "^2.5.4",
@@ -33,9 +35,9 @@
     "@angular/cli": "~7.3.6",
     "@angular/compiler-cli": "~7.2.0",
     "@angular/language-service": "~7.2.0",
-    "@types/node": "~8.9.4",
     "@types/jasmine": "~2.8.8",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~8.9.4",
     "codelyzer": "~4.5.0",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
