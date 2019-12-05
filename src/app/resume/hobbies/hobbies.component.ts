@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Hobbie } from './hobbie'
+import { Hobbie } from './hobbie';
 
 @Component({
   selector: 'app-hobbies',
@@ -15,8 +15,12 @@ export class HobbiesComponent implements OnInit {
       name: 'Music',
       icon: 'fas fa-music'
     }, {
-      name: 'Penny Board',
+      name: 'LongBoard',
       icon: 'fas fa-skating'
+    },
+    {
+      name: 'Trekking',
+      icon: 'fas fa-walking'
     }, {
       name: 'Cycling',
       icon: 'fas fa-bicycle'
