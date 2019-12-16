@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "npx angular-cli-ghpages --no-silent --dir=dist/cristtopher --repo=https://CONFIGOR_CONSUL_KEY@github.com/cristtopher/cristtopher.github.io.git --name='Cristtopher Quintana T.' --email='cristtopher@protonmail.com' --message='' --branch=master"
+    "deploy": "npx angular-cli-ghpages --no-silent --dir=dist/cristtopher --repo=https://$GH_TOKENgithub.com/cristtopher/cristtopher.github.io.git --name='Cristtopher Quintana T.' --email='cristtopher@protonmail.com' --message='Re-deploy' --branch=master"
   },
   "private": true,
   "dependencies": {
@@ -25,6 +25,7 @@
     "animate.css": "^3.7.0",
     "bootstrap": "^3.3.6",
     "core-js": "^2.5.4",
+    "dotenv": "^8.2.0",
     "jquery": "^1.12.4",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
