@@ -296,7 +296,7 @@ var PresentationComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Byb2plY3RzL3Byb2plY3RzLmNvbXBvbmVudC5jc3MifQ== */"
+module.exports = "#works-list.masonry {\n  margin-left: 260px;\n}\n\n@media (max-width: 500px){\n  #works-list.masonry {\n    margin-left: 0px;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvamVjdHMvcHJvamVjdHMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFO0lBQ0UsZ0JBQWdCO0VBQ2xCO0FBQ0YiLCJmaWxlIjoic3JjL2FwcC9wcm9qZWN0cy9wcm9qZWN0cy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI3dvcmtzLWxpc3QubWFzb25yeSB7XG4gIG1hcmdpbi1sZWZ0OiAyNjBweDtcbn1cblxuQG1lZGlhIChtYXgtd2lkdGg6IDUwMHB4KXtcbiAgI3dvcmtzLWxpc3QubWFzb25yeSB7XG4gICAgbWFyZ2luLWxlZnQ6IDBweDtcbiAgfVxufSJdfQ== */"
 
 /***/ }),
 
@@ -571,7 +571,7 @@ var HobbiesComponent = /** @class */ (function () {
             },
             {
                 name: 'Trekking',
-                icon: 'fas fa-skating'
+                icon: 'fas fa-walking'
             }, {
                 name: 'Cycling',
                 icon: 'fas fa-bicycle'
