@@ -1,0 +1,9 @@
+#works-list.masonry {
+  margin-left: 260px;
+}
+
+@media (max-width: 500px){
+  #works-list.masonry {
+    margin-left: 0px;
+  }
+}
