@@ -16,13 +16,26 @@ export class LanguagesComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    this.languages = [{
+    this.languages = [
+      {
+        name: 'Rust',
+        progress: 60
+      },
+      {
+        name: 'Go',
+        progress: 100
+      },
+      {
         name: 'Javascript / Typescript',
         progress: 100
       },
       {
         name: 'Python',
         progress: 95
+      },
+      {
+        name: 'PHP',
+        progress: 100
       },
       {
         name: 'Java',

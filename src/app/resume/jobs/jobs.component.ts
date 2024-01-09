@@ -18,8 +18,36 @@ export class JobsComponent implements OnInit {
   ngOnInit() {
     this.jobs = [
       {
+        title: 'Software Architect',
+        date: '07.2023 - Current',
+        company: 'IACC',
+        place: 'Remoto',
+        url: 'iacc.cl'
+      },
+      {
+        title: 'DevOps Senior',
+        date: '01.2023 - 07.2023',
+        company: 'IACC',
+        place: 'Remoto',
+        url: 'iacc.cl'
+      },
+      {
+        title: 'DevOps Engineer',
+        date: '02.2022 - 12.2022',
+        company: 'WherEX',
+        place: 'Remoto',
+        url: 'wherex.com'
+      },
+      {
+        title: 'Senior Developer',
+        date: '01.2020 - 05.2022',
+        company: 'WherEX',
+        place: 'Puerto Varas',
+        url: 'wherex.com'
+      },
+      {
         title: 'Fullstack Developer',
-        date: '05.2019 - Present',
+        date: '05.2019 - 12.2019',
         company: 'PeanutHub / Digital Factory Falabella',
         place: 'Santiago',
         url: 'peanuthub.cl'

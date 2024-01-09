@@ -38,11 +38,11 @@ export class SkillsComponent implements OnInit {
       },
       {
         name: 'Docker',
-        progress: 95
+        progress: 100
       },
       {
         name: 'Kubernetes',
-        progress: 80
+        progress: 100
       },
       {
         name: 'Android (Java)',
@@ -54,6 +54,10 @@ export class SkillsComponent implements OnInit {
       },
       {
         name: 'Azure',
+        progress: 80
+      },
+      {
+        name: 'AWS',
         progress: 100
       }
     ];
